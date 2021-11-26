@@ -1,0 +1,34 @@
+Telegram:t.me/BomberBotBB
+
+MultiAccount guide:
+
+Deixe: "MultiAccount = True" em settings.ini
+
+Coloque o numero de contas em: "Accounts = x"
+
+Para cada conta crie um multi.ini, por exemplo: multi1.ini, multi2.ini, multi3.ini, etc
+
+Mapeie cada conta usando o software da pasta Mapeamento.
+
+Coloque as imgs de acordo c o padrão da pasta "Imgs". Print do assinar = SIGN1.png, SIGN2.png, META1.png, META2.png, etc.
+As imagens não precisam estar respectivas as contas, você pode colocar mais imagens para garantir que vai achar alguma.
+
+
+OBS:
+
+Suas abas precisam sempre estar na msm posição para o mapeamento clicar nas coords certas
+E para detectar as imagens.
+
+Geralmente quando você redimensiona uma aba ela fica salva na posição que vc deixou, ache uma forma de deixar
+todas sempre no msm lugar.
+
+Se você tem 2 contas é mais fácil porquê você pode dividir as abas no meio da tela, com mais contas você
+precisa achar um layout e deixar sempre da msm forma.
+
+O modo debug não está funcionando no momento para o modo MultiAccount, ele vai usar as configs do SingleAccount.
+
+Mapeie todas suas contas, salve as imgs e depois vai salvando suas imgs de error e map conforme for aparecendo.
+
+
+
+
