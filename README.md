@@ -4,7 +4,8 @@
 # BomberBot
 Free Python macro for BombCrypto.
 
-telegram:https://t.me/BomberBotBB
+Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
+
 
 # Features
 Full AutoFarm
