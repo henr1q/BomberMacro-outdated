@@ -7,7 +7,7 @@ Free Python macro for BombCrypto.
 Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
 
 
-# Features
+# Features:
 Full AutoFarm
 
 AutoReconnect on error
@@ -20,6 +20,9 @@ Add random timing to avoid detection
 
 MultiAccount
 
+# Como usar:
+Leia os manuais.
+
 # Instalação:
 1)Baixe python 
 
@@ -29,7 +32,9 @@ MultiAccount
 
 4)Ou apenas rode o .exe :D
 
-# Tips
+# Tips:
+Se esse projeto tá sendo lucrativo pra você, você pode contribuir:
+
 Metamask: 0x94843B902427006bedaC7fb24039500411D599Ac
 
 
