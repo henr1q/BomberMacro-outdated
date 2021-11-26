@@ -1,0 +1,7 @@
+colorama
+pyautogui
+time
+threading
+configparser
+random
+glob
