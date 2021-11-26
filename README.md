@@ -8,17 +8,16 @@ Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
 
 
 # Features:
+MultiAccount
+
 Full AutoFarm
 
 AutoReconnect on error
 
-Auto change maps
-
-Show farm/map stats
+Show farm stats
 
 Add random timing to avoid detection
 
-MultiAccount
 
 # Como usar:
 Leia os manuais.
