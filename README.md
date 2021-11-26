@@ -4,9 +4,10 @@
 # BomberBot
 Free Python macro for BombCrypto.
 
-telegram:https://t.me/BomberBotBB
+Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
 
-# Features
+
+# Features:
 Full AutoFarm
 
 AutoReconnect on error
@@ -19,6 +20,21 @@ Add random timing to avoid detection
 
 MultiAccount
 
-# Tips
+# Como usar:
+Leia os manuais.
+
+# Instalação:
+1)Baixe python 
+
+2)Vá até a pasta do macro, abra o cmd e instale os requisitos com: pip install -r requirements.txt
+
+3)Execute com python bombV1.03.py, não se esqueça de configurar o settings.ini.
+
+4)Ou apenas rode o .exe :D
+
+# Tips:
+Se esse projeto tá sendo lucrativo pra você, você pode contribuir:
+
 Metamask: 0x94843B902427006bedaC7fb24039500411D599Ac
+
 
