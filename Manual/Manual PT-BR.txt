@@ -1,7 +1,6 @@
 Telegram:https://t.me/BomberBotBB
 Github:https://github.com/henr1q
-
-DICA:USE RES:1920X1080 E O NAVEGADOR OPERAGX PARA FACILIDADE, O BOT FOI DESENVOLVIDO USANDO O OPERAGX.
+ 
 
 Acesse a pasta mapeamento e rode o executavel para mapear os botôes no arquivo settings.ini.
 ou baixe neste link:
@@ -14,9 +13,7 @@ Não deixe de fazer isso ou o macro provavelmente não irá funcionar.
 Instruçoes para o bot:
 1)Não rode o macro muito perto de terminar um mapa, ou na tela de login/erro, rode na tela inicial ou dentro do mapa.
 
-2)Rode o macro com todos seus herois descansando(Ideal que eles estejam com bastante energia para você não perder tempo).
-
-3)Substitua as imagens da pasta erros e da pasta Imgs, com suas próprias imagens.
+2)Substitua as imagens da pasta erros e da pasta Imgs, com suas próprias imagens.
 As imagens precisam ter o mesmo nome que estavam na config original. As imagens precisam ser recortadas e centralizadas.
 Exemplo:Tire o print apenas do botão " NEW MAP " e substitua o da pasta com o mesmo nome "NEWMAP.png".
 não deixa escapar pixeis do mapa do jogo no print por exemplo, ou o bot não irá achar.

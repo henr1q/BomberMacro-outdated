@@ -1,8 +1,6 @@
 Telegram:https://t.me/BomberBotBB
 Github:https://github.com/henr1q
 
-TIP:USE RES:1920X1080 AND GX OPERA BROWSER FOR MAKE THINGS EASIER FOR YOU, THE BOT WAS WRITTEN USING OPERAGX.
-
 Acess the "mapeamento" folder and use the software to map your coords.
 or download it in this link:
 Software:https://sourceforge.net/projects/mpos/
