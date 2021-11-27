@@ -8,17 +8,16 @@ Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
 
 
 # Features:
+MultiAccount
+
 Full AutoFarm
 
 AutoReconnect on error
 
-Auto change maps
-
-Show farm/map stats
+Show farm stats
 
 Add random timing to avoid detection
 
-MultiAccount
 
 # Como usar:
 Leia os manuais.
@@ -28,7 +27,7 @@ Leia os manuais.
 
 2)Vá até a pasta do macro, abra o cmd e instale os requisitos com: pip install -r requirements.txt
 
-3)Execute com python bombV1.03.py, não se esqueça de configurar o settings.ini.
+3)Execute com: python bombV1.03.py, não se esqueça de configurar o settings.ini.
 
 4)Ou apenas rode o .exe :D
 
