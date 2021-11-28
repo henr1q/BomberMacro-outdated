@@ -29,8 +29,8 @@ import configparser
 import random
 from colorama import Fore, Back, Style
 from datetime import datetime
+import cv2
 import glob
-
 
 
 pyautogui.FAILSAFE = False
@@ -216,7 +216,7 @@ def check_errors():
     while True:
         errors = glob.glob("Errors/*.png")
         for erro in errors:
-            erro = pyautogui.locateCenterOnScreen(erro)
+            erro = pyautogui.locateCenterOnScreen(erro, confidence=0.7)
             if erro:
                 print("Error found")
                 pyautogui.moveTo(erro)
@@ -226,8 +226,6 @@ def check_errors():
                 ErrorsFound = ErrorsFound + 1
                 connect()
                 time.sleep(60)
-
-
 
 
 #Click next map
@@ -290,7 +288,7 @@ def connect():
         auxAba = None
 
         for img in main:
-            img = pyautogui.locateCenterOnScreen(img)
+            img = pyautogui.locateCenterOnScreen(img, confidence=0.7)
             aux = img
 
         if aux:
@@ -387,12 +385,15 @@ def threads():
 string1 = "BomberBot V1.03"
 string2 = "Telegram:t.me/BomberBotBB"
 string3 = "Github:github.com/henr1q/BomberBot"
-string4 = "This bot is FREE."
+string4 = f"Metamask:{Fore.CYAN}0x94843B902427006bedaC7fb24039500411D599Ac"
+string5 = "This bot is FREE."
+
 print(Fore.GREEN + "=" * 40)
 print(Fore.BLUE + string1.center(40, " "))
 print(Fore.BLUE + string2.center(40, " "))
 print(Fore.BLUE + string3.center(40, " "))
-print(Fore.BLUE + Fore.RED + string4.center(40, " "))
+print(Fore.BLUE + string4.center(40, " "))
+print(Fore.BLUE + Fore.RED + string5.center(40, " "))
 print(Fore.GREEN + "=" * 40)
 print(Fore.GREEN)
 
