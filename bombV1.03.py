@@ -27,9 +27,8 @@ import time
 import threading
 import configparser
 import random
-from colorama import Fore, Back, Style
+from colorama import Fore
 from datetime import datetime
-import cv2
 import glob
 
 
@@ -216,7 +215,7 @@ def check_errors():
     while True:
         errors = glob.glob("Errors/*.png")
         for erro in errors:
-            erro = pyautogui.locateCenterOnScreen(erro, confidence=0.7)
+            erro = pyautogui.locateCenterOnScreen(erro)
             if erro:
                 print("Error found")
                 pyautogui.moveTo(erro)
@@ -288,12 +287,12 @@ def connect():
         auxAba = None
 
         for img in main:
-            img = pyautogui.locateCenterOnScreen(img, confidence=0.7)
+            img = pyautogui.locateCenterOnScreen(img)
             aux = img
 
         if aux:
             print("\n")
-            pprint(Fore.RED + "Error found or game was stuck. Reconnecting.")
+            pprint(Fore.RED + "Reconnecting.")
             print(Fore.MAGENTA)
             print("\n")
             aux2 = aux

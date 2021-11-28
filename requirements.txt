@@ -5,4 +5,3 @@ threading
 configparser
 random
 glob
-opencv-python~=4.5.4.60
