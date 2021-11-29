@@ -223,8 +223,8 @@ def check_errors():
                 pyautogui.click(erro)
                 pyautogui.hotkey('ctrl', 'f5')
                 ErrorsFound = ErrorsFound + 1
-                connect()
-                time.sleep(60)
+                #connect()
+                #time.sleep(60)
 
 
 #Click next map
@@ -365,17 +365,17 @@ def threads():
         t3 = threading.Thread(target=bot)
 
     t4 = threading.Thread(target=show_stats)
-    #t5 = threading.Thread(target=connect)
+    t5 = threading.Thread(target=connect)
     t1.start()
     t2.start()
     t3.start()
     t4.start()
-    #t5.start()
+    t5.start()
     threadss.append(t1)
     threadss.append(t2)
     threadss.append(t3)
     threadss.append(t4)
-    #threadss.append(t5)
+    threadss.append(t5)
 
     for thread in threadss:
         thread.join()
