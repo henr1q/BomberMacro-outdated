@@ -6,6 +6,7 @@ Free Python macro for BombCrypto.
 
 Telegram é a melhor forma de ajuda:https://t.me/BomberBotBB
 
+Coords estão mapeadas para res FHD e 90% de zoom, c barra de fav, se você quer poupar tempo mapeando.
 
 # Features:
 MultiAccount
