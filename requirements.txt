@@ -1,10 +1,6 @@
 colorama~=0.4.3
 pyautogui~=0.9.53
-time
-threading
 configparser
-random
-glob
 opencv-python==4.5.3.56
 numpy==1.21.4
 scikit-image==0.18.3
